@@ -16,7 +16,7 @@ body {
 /* Botón */
 button {
     position: absolute;
-    top: 180px;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
