@@ -16,11 +16,11 @@ body {
 /* Botón */
 button {
     position: absolute;
-    top: 49%;
+    top: 24%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
-    font-size: 46px;
+    font-size: 36px;
     background: red;
     color: white;
     border: none;
@@ -55,7 +55,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50%
+    margin-top: -50%
 }
 
 /* Imagen de la radio */
