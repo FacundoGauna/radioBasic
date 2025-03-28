@@ -9,13 +9,9 @@ body {
     background: url("assets/FondoRadio.png");
     font-family: Arial, sans-serif;
     text-align: center;
+    overflow: hidden;
 }
 
-h1 {
-    font-size: 3rem; /* Tamaño aumentado */
-    color: white;
-    font-family: 'Courier', 'Courier New', monospace; /* Fuente retro sin necesidad de importar */
-}
 
 /* Botón */
 button {
@@ -137,27 +133,8 @@ button:hover {
     cursor: pointer;
 }
 
-h2 {
-    font-size: 1.9rem; /* Tamaño aumentado */
-    color: #ff3030;
-    font-family: 'Courier', 'Courier New', monospace;
-}
-
-h3 {
-    font-size: 0.9rem; /* Tamaño aumentado */
-    color: white;
-    font-family: 'Courier', 'Courier New', monospace;
-    margin: 30px; /* Aplica un margen uniforme en todos los lados */
-    text-align: center;
-    text-align: justify;
-    line-height: 1.5;
-}
-
 /*  ADAPTACIÓN A TELÉFONOS */
 @media (max-width: 600px) {
-    h1 {
-        font-size: 1.5rem;
-    }
 
     .fondo {
         width: 95vw; /* Un poco más ancho en móviles */
